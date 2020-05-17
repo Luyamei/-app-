@@ -1,0 +1,25 @@
+
+html,body,div{
+    background-color: white;
+}
+.content{
+    .acc{
+        background-color: rgb(63, 204, 63);
+        span{
+            color: #fff;
+        }
+    }
+        .left{
+            color:rgb(47, 209, 47);
+        }
+        .right{
+          color:rgb(47, 209, 47);
+        }
+    .text{
+        color: rgb(177, 174, 174);
+    }
+    .error{
+        color: red;
+        text-align: center;
+    }
+}

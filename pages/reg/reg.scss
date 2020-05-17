@@ -1,0 +1,37 @@
+html,body,div{
+    background-color: white;
+}
+.reg{
+    .my-radio .am-radio {
+        padding: 2.5px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    span:nth-child(2){
+        color: #999;
+    }
+    span:nth-child(3){
+        color:rgb(47, 209, 47);
+    }
+    .acc{
+        background-color: rgb(63, 204, 63);
+        span{
+            color: white!important;
+        }
+    }
+    .color{
+        color: rgb(47, 209, 47);
+    }
+    .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+        border-color: rgb(47, 209, 47);
+        background: rgb(47, 209, 47);
+    }
+    .demoTitle:before, .demoTitle:after {
+        border-bottom: none;
+    }
+    .am-list-item .am-input-control .fake-input-container .fake-input{
+        position: static;
+    }
+   
+}
